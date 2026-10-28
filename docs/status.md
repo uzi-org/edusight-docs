@@ -11,6 +11,7 @@ EduSight is in **early development**. It has not yet been piloted with a school,
 | **Platform** | Role-based access for teachers, school administrators, parents, content editors and platform administrators; learner records with classes; assessments in any subject; support queue; interventions; parent view grouped by school and class; home observations; school reports and CSV export; installs to the home screen and shows an offline notice |
 | **Learner profiles** | Every subject against the learner's own history; strengths with how to maintain them; growth areas with how to improve; extracurricular activities and how they connect to learning |
 | **Signals** | Support level (routine / watch / urgent), plain-language drivers, confidence, missing-data warnings, support needs with owners and review dates, human-review flag |
+| **Administration** | Accounts and teacher class assignments, guardian links, learner enrolment and CSV import, an access log of who viewed which learner (also visible to families for their own child), school details, API keys, settings for every role |
 | **Resources** | Library filtered by category, level, language and tag; EduSight Studio for writing and publishing resources in a visual editor |
 | **Integration** | API keys; roster sync, single or up to 500 per call; idempotent events; assessments; stateless prediction; signed webhooks with retries; Python and TypeScript SDKs |
 | **Languages** | English, Kiswahili |
@@ -18,10 +19,9 @@ EduSight is in **early development**. It has not yet been piloted with a school,
 ## In development
 
 - A family view of teacher-approved suggestions, with the approval recorded
-- Screens for administrators to manage accounts, class assignments and guardian links (available through the API today)
 - Per-school settings for thresholds, terminology and intervention templates
-- CSV and Excel roster and results import with a review step
-- Audit-log viewer and data-retention controls
+- Excel import of assessment results (learner rosters can already be imported from CSV)
+- Data-retention controls
 - Fairness and accuracy evaluation with partner schools, on real, consented data
 
 ## Planned

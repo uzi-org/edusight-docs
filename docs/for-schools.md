@@ -16,6 +16,19 @@ Every account sees only what its role needs. The same rules apply in the app and
 
 Staff accounts are created by school administrators. Anyone can sign up as a parent, but a parent sees nothing until the school links them to their child.
 
+### Running your school in EduSight
+
+School administrators have the tools to set the school up without technical help:
+
+- **Accounts.** Create teacher and parent accounts, deactivate them, and choose which classes each teacher sees. A teacher sees only the classes you assign.
+- **Learners.** Enrol learners one at a time, or import a whole class or school from a spreadsheet saved as CSV. Each row is checked, and problems are reported row by row.
+- **Guardians.** Link a parent's account to their child from the child's page. Removing the link removes the parent's access immediately.
+- **Access log.** Every time someone opens a learner's record, it is recorded. So is every change to accounts, classes and guardian links. The log cannot be edited. Families can see who has opened their own child's record.
+- **Subjects.** Teachers and administrators keep the school's list of subjects, so assessments use consistent names.
+- **Integrations.** Create and revoke API keys for your school management system.
+
+Everyone has a **Settings** page for their name, language and password. Changing a password signs you out on every device.
+
 ## For teachers
 
 - **The support queue.** Open the support queue to see the learners who need attention, most urgent first. Each one shows the main reasons and a suggested next step.
