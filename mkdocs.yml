@@ -1,0 +1,53 @@
+site_name: EduSight Africa
+site_description: Early-warning signals and support guidance that help every learner finish school, and finish it well.
+site_url: https://uzi-org.github.io/edusight-docs/
+repo_url: https://github.com/uzi-org/edusight-docs
+repo_name: uzi-org/edusight-docs
+docs_dir: docs
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle: { icon: material/weather-night, name: Switch to dark mode }
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle: { icon: material/weather-sunny, name: Switch to light mode }
+  features:
+    - navigation.top
+    - navigation.sections
+    - content.code.copy
+    - toc.follow
+
+# Public product documentation only. It is edited here, in the private
+# edusight-africa repository, and copied to the public uzi-org/edusight-docs
+# repository by .github/workflows/sync-docs.yml, which publishes it to Pages.
+# Never put engineering material in docs/: everything here becomes public.
+nav:
+  - Home: index.md
+  - Product:
+      - How EduSight works: how-it-works.md
+      - EduSight in your school: for-schools.md
+      - Responsible use: responsible-use.md
+      - Product status: status.md
+  - Connect your system:
+      - Integration guide: integrate/index.md
+      - API reference: integrate/api-reference.md
+      - Webhooks: integrate/webhooks.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search
