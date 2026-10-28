@@ -18,12 +18,24 @@ EduSight works with the information most schools already record. More informatio
 | Information | Examples |
 | --- | --- |
 | Attendance | attendance percentage this term, consecutive days absent |
-| Learning | subject scores (any grading scale converted to 0–100), reading or literacy level, change since last term |
+| Learning | scores in **any subject the school assesses** (mathematics, reading and writing, plus science, languages, humanities, arts and so on), converted to 0–100; reading or literacy level |
 | Engagement | a teacher's 1–5 engagement rating, or the number of behaviour incidents |
 | Home | homework completion, guardian engagement |
+| Interests | extracurricular activities: sports, music, clubs, leadership roles and others |
 | Context | grade, age, school type |
 
 Sensitive information is handled carefully. This includes health, disability, ethnicity, religion, income, refugee status and pregnancy. EduSight does not ask for it in order to produce a signal. See [Responsible use](responsible-use.md).
+
+## A full picture of each learner
+
+A learner is more than three test scores. For every learner EduSight builds a profile from everything recorded about them:
+
+- **Every subject, against their own history.** Each subject shows the latest score, the learner's own average before it, and the change. A drop from 75 to 62 matters even though 62 is a pass. A rise from 40 to 55 is real progress even though 55 is modest. The overall average and attendance are tracked the same way, so a temporary dip can be told apart from a pattern.
+- **Strengths, and how to keep them.** Subjects where the learner scores 70% or more, or has clearly improved, are listed with concrete ways to sustain them. Examples are extension tasks, peer teaching, and clubs or competitions. Strong learners need attention too.
+- **Growth areas, and how to improve them.** Subjects below 50%, or clearly below the learner's own record, come with practical next steps for that subject. For example: "find the specific gap first, then ten minutes of daily practice".
+- **Interests and activities.** Football, choir, chess, debate, leadership roles and other activities are recorded by the school or the family. For each one EduSight shows what it can build, such as teamwork, concentration or confidence speaking. Where an activity connects to a subject the learner is working on, EduSight suggests using the activity as a way in. Learners often work harder on problems tied to something they care about. These are suggestions about what an activity *can* support, not promises.
+
+Strengths and growth areas describe recorded scores, not ability.
 
 ## The early-warning signal
 
@@ -35,7 +47,7 @@ Each time new information arrives, EduSight gives the learner a **support level*
 | **Watch** | Early signs of difficulty. | Plan a light-touch response and check again soon. |
 | **Urgent** | Clear signs that the learner needs help now. | Someone at the school reviews this learner this week. |
 
-Every signal says *why*. It lists the main drivers, such as "attendance below target" or "foundational literacy support needed", and how confident EduSight is given the data it had. A signal is a prompt to look closer. It is never a verdict about the learner.
+The signal takes every assessed subject into account, not only mathematics, reading and writing. It also compares the latest results with the learner's previous assessment. Every signal says *why*. It lists the main drivers, such as "attendance below target" or "foundational literacy support needed", and how confident EduSight is given the data it had. A signal is a prompt to look closer. It is never a verdict about the learner.
 
 ## Support needs: the kind of help
 

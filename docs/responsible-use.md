@@ -17,6 +17,7 @@ EduSight does not use the following to produce a learner's signal: ethnicity, re
 
 ## Data protection
 
+- **Role-based access.** Teachers see only their assigned classes. School administrators see only their own school. Parents see only their own children. Content editors see no learner data. A learner someone may not see is reported as "not found", so learner records cannot be probed.
 - **Isolation.** Each partner organisation sees only its own learners.
 - **Minimal webhooks.** Notifications carry identifiers and support information, never names or scores.
 - **Keys and secrets.** API keys are stored as one-way hashes and shown once. Webhook payloads are signed so you can verify they came from EduSight.

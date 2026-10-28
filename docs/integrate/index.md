@@ -118,6 +118,7 @@ EduSight accepts several common field names, so you can often send what you alre
 | `math_score` | `numeracy_score` | 0–100 |
 | `reading_score` | `literacy_score` | 0–100 |
 | `writing_score` | — | 0–100 |
+| `subject_scores` | — | any other subjects, e.g. `{"science": 64, "kiswahili": 71}`; names are normalised, 0–100 each, up to 30 |
 | — | `academic_average` | 0–100, used for all three subjects when they are not sent individually |
 | `score_trend` | derived from `academic_average` and `previous_term_average` | −1 to 1 |
 | `behavior_rating` | derived from `behavior_incidents` (0 incidents = 5) | 1–5 |
