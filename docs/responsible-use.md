@@ -19,6 +19,9 @@ EduSight does not use the following to produce a learner's signal: ethnicity, re
 
 - **Role-based access.** Teachers see only their assigned classes. School administrators see only their own school. Parents see only their own children. Content editors see no learner data. A learner someone may not see is reported as "not found", so learner records cannot be probed.
 - **Access log.** Every view of a learner's record, and every change to who can see it, is recorded and cannot be edited. Schools can review it. Families can see who opened their own child's record.
+- **Photographed sheets.** Photos are read on EduSight's own server; no image is sent to an outside service. Each photo is deleted once the scan is saved or discarded.
+- **Training data only with consent.** De-identified data is used to improve EduSight only from schools that opt in. Exports replace learners and schools with keyed codes. They leave out names, gender and class names, and they exclude free-text fields.
+- **Retention.** The access log is kept for a fixed period (two years by default) and then deleted automatically.
 - **Isolation.** Each partner organisation sees only its own learners.
 - **Minimal webhooks.** Notifications carry identifiers and support information, never names or scores.
 - **Keys and secrets.** API keys are stored as one-way hashes and shown once. Webhook payloads are signed so you can verify they came from EduSight.

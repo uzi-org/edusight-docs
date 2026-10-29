@@ -20,12 +20,24 @@ Staff accounts are created by school administrators. Anyone can sign up as a par
 
 School administrators have the tools to set the school up without technical help:
 
-- **Accounts.** Create teacher and parent accounts, deactivate them, and choose which classes each teacher sees. A teacher sees only the classes you assign.
+- **Accounts.** Invite teachers and parents, deactivate accounts, and choose which classes each teacher sees. A teacher sees only the classes you assign. An invitation is a one-time link to choose a password. It is emailed when the school has email set up; otherwise you share it by SMS, WhatsApp or in person. You can also set a temporary password, which the person must change the first time they sign in.
 - **Learners.** Enrol learners one at a time, or import a whole class or school from a spreadsheet saved as CSV. Each row is checked, and problems are reported row by row.
 - **Guardians.** Link a parent's account to their child from the child's page. Removing the link removes the parent's access immediately.
 - **Access log.** Every time someone opens a learner's record, it is recorded. So is every change to accounts, classes and guardian links. The log cannot be edited. Families can see who has opened their own child's record.
 - **Subjects.** Teachers and administrators keep the school's list of subjects, so assessments use consistent names.
 - **Integrations.** Create and revoke API keys for your school management system.
+
+### Getting results in without retyping
+
+Many schools keep marks on paper. EduSight offers three ways in, so nothing has to be typed twice:
+
+1. **Photograph the mark sheet.** On a phone, open *Scan marks*, choose the class and take a photo of the paper sheet. EduSight reads the names and marks, then shows them beside the photo. Anything it is unsure of is highlighted. You correct what needs correcting and save. Nothing is saved until you have checked it, and the photo is deleted afterwards. Printed and typed sheets read most reliably; handwritten numbers are often uncertain, so check them carefully.
+2. **Fill in a spreadsheet.** Download a mark sheet for your class with your learners already listed. Fill it in Excel or Google Sheets, or on paper first, then upload it. Sheets in your school's own layout also work: EduSight reads the column headings and matches names, and shows you exactly how it understood each row before saving.
+3. **Type them in** on the Assess page.
+
+### Helping improve EduSight
+
+A school administrator can choose, in Settings, to contribute de-identified data. When this is on, two things happen. Score cells that teachers have checked on photographed sheets help train a better reader of handwritten marks. Assessment records, with every learner and school replaced by a code, help improve the early-warning model. Names, gender and class names are never included. Recording when a learner leaves school before completing (on the learner's page) gives the model the outcome it needs to learn from.
 
 Everyone has a **Settings** page for their name, language and password. Changing a password signs you out on every device.
 
