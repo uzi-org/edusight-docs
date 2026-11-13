@@ -19,6 +19,7 @@ EduSight is in **early development**. It has not yet been piloted with a school,
 
 ## In development
 
+- [The mobile app](mobile-app.md) for teachers and parents on Android and iPhone, with offline capture that sends when a connection returns. It is built and checked in automated tests; it has not yet been tried on school phones
 - A family view of teacher-approved suggestions, with the approval recorded
 - Per-school settings for thresholds, terminology and intervention templates
 - A better reader for handwritten marks, trained on corrections from schools that opt in
@@ -29,7 +30,6 @@ EduSight is in **early development**. It has not yet been piloted with a school,
 - Single sign-on for school accounts: OAuth2/OIDC, Google and Microsoft
 - Embeddable widgets and LTI for learning platforms
 - xAPI/Caliper event ingestion
-- Offline data capture that syncs when a connection returns
 - More African languages, each reviewed by native speakers
 
 ## Working with us
