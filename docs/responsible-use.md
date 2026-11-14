@@ -11,6 +11,16 @@ EduSight holds information about children. Our job is to help those children, an
 5. **Not a diagnosis.** A suggestion to screen for learning needs, or to involve a counsellor, means a qualified person should take a closer look. It never means the learner has a condition.
 6. **Collect only what helps.** EduSight works with the information schools already have. It does not need sensitive attributes to produce a signal.
 
+## Encouragement without pressure
+
+The app celebrates effort and progress. It is built so that it cannot be used to rank or shame anyone.
+
+- **A learner is only ever compared with themselves.** A win such as "personal best in Mathematics" means their latest result beat their own earlier ones. There are no leaderboards, class positions or comparisons between learners, and nothing like them will be added. The "worth a cheer" list is not ordered by who improved most: it shows learners assessed most recently, then by name.
+- **Rewards belong to the adults using the app.** Teachers and parents earn badges and keep a weekly rhythm for the things they do: recording marks, sharing notes from home, reading together. Learners are not scored.
+- **Nothing is lost.** A streak counts whole weeks, and this week never breaks it. A badge, once earned, stays. A quiet week is not a failure and nothing in the app says it is.
+- **Only real records count.** Everything is calculated from records that exist. An entry with nothing in it, or dated in the future, earns nothing. The rewards are encouragement for the person using the app, not a measure anyone is held to, so they are not built to withstand someone determined to cheat them.
+- **Families see only good news in this part.** Wins and badges never include risk levels, and the wording for a family never says a child is declining: it says they may need encouragement.
+
 ## Sensitive information
 
 EduSight does not use the following to produce a learner's signal: ethnicity, religion, health, disability, pregnancy, household income, orphan or vulnerability status, or refugee status. Where the law and consent allow, some of these may be used **only** in aggregate, to check that signals are fair across groups. They are never used to make a decision about an individual.

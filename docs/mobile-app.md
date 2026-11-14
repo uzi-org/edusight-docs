@@ -19,6 +19,21 @@ School administrators, content editors and platform staff keep using the web app
 - **Share a note from home.** Reading time, homework, focus and mood, or just a sentence.
 - **Learn.** Short guides from the school and EduSight, in English and Kiswahili.
 
+## Small wins, every week
+
+- **This week.** Seven days, a goal of three. Record marks or a note on three days, or for parents share a note from home, and the week is done. The streak counts weeks in a row, and this week never breaks it.
+- **Badges.** First scan, ten and fifty sets of marks, observations, steady weeks, a first note from home, a reading hour. Once earned, they stay.
+- **Worth a cheer.** Teachers see learners who have improved on their own earlier results, to tell them so.
+- **Wins for each child.** Parents see what is going well, such as a personal best or great attendance, next to each child's name.
+- **Marks this month.** Teachers see how many of their learners have recent marks. More marks mean better support signals, so this is the number worth growing.
+- **Read together.** Parents see reading time toward an hour a week.
+
+These are calculated from what is really recorded. See [Responsible use](responsible-use.md) for what they will never be.
+
+## Simple to start
+
+The first time you open the app, three short screens show what it does. You can skip them, and reopen them from **Me → How EduSight works**. Entering marks takes four fields; participation, reading level, date and notes are under **More**.
+
 ## Works offline
 
 - Your classes and learners' profiles stay on the phone. You can open them with no connection, and the app shows when they were last updated.
